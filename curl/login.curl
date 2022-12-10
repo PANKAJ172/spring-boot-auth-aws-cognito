@@ -1,0 +1,6 @@
+curl --location --request POST 'localhost:8080/auth/login' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "username" : "pankaj@gmail.com",
+    "password" : "Test@123#$"
+}'
